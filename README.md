@@ -1,27 +1,18 @@
-WHMCS TLD Manager
-This PHP script is designed to help manage Top-Level Domains (TLDs) in a WHMCS database. It provides a simple and user-friendly interface for listing and deleting TLDs.
+✨ How This Script Works:
+Secure Database Connection
+Establishes a reliable connection to your WHMCS database using PDO for secure data handling.
 
-How It Works
-Database Connection:
-The script connects to the WHMCS database using PDO with secure credentials.
+Fetching TLDs
+Retrieves all TLDs stored in the database and displays them in a scrollable, user-friendly list.
 
-Fetching TLDs:
-It fetches the list of all TLDs stored in the tbldomainpricing table.
+Interactive Selection
 
-Interactive UI:
+Provides checkboxes for selecting one or multiple TLDs.
+Includes a "Select All" button for quick bulk selection.
+One-Click Deletion
+Deletes all selected TLDs from the database with a single click, showing success or error messages.
 
-Displays TLDs in a scrollable list.
-Provides checkboxes for users to select TLDs.
-Includes a "Select All" button for convenience.
-Deletion of Selected TLDs:
-
-When the user submits the form, the selected TLDs are deleted from the database.
-Success and error messages are displayed to provide feedback.
-Responsive Design:
-
-Clean and modern interface with buttons styled for better UX.
-Fully responsive layout.
-How to Use
+🛠 How to Use:
 Configure database credentials in the PHP script:
 php
 Copy code
@@ -29,12 +20,11 @@ $dbHost = 'localhost';
 $dbName = 'whmcs_database';
 $dbUser = 'db_user';
 $dbPass = 'db_password';
-Upload the script to your web server.
+Upload the script to your server.
 Open the script in your web browser.
-Use the checkboxes to select TLDs and click "Delete Selected TLDs."
-Features
-Secure database interaction using PDO.
-Intuitive UI for managing TLDs.
-Single-click option to select all TLDs.
-Minimalistic and responsive design.
-Let me know if you need additional enhancements or explanations!
+Use the checkboxes to select the TLDs and click "Delete Selected TLDs."
+🚀 Features:
+Secure Database Interaction: Powered by PDO for reliable and safe operations.
+Intuitive UI: Simple and modern design for a great user experience.
+Bulk Actions: Select and delete multiple TLDs with ease.
+Responsive Design: Fully adaptable to different screen sizes.
